@@ -1,0 +1,21 @@
+#meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+    margin: 50px;
+    padding:2em;
+}
+.meal{
+   background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px; 
+}
+.meal-img{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.meal-info{
+    border-radius: 10px;
+    background-color: rgba(206, 211, 224, 0.9);
+}
